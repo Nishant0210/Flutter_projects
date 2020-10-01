@@ -66,8 +66,8 @@ class _HomePageState extends State<HomePage> {
             width: MediaQuery.of(context).size.width * 0.8,
             height: 80,
             margin: EdgeInsets.only(
-                top: MediaQuery.of(context).size.height * 0.7,
-                left: MediaQuery.of(context).size.width * 0.1),
+                top: MediaQuery.of(context).size.height * 0.8,
+                left: MediaQuery.of(context).size.width * 0.2),
             decoration: BoxDecoration(
                 color: Colors.pink.shade100,
                 borderRadius: BorderRadius.circular(50)),
