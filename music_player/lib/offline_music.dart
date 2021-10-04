@@ -51,7 +51,7 @@ class _HomePageState extends State<HomePage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Colors.pink.shade200,
+      backgroundColor: Colors.pink.shade400, // changed Colour
       body: Stack(
         children: <Widget>[
           Container(
@@ -108,7 +108,7 @@ class _HomePageState extends State<HomePage> {
                 ),
                 Text(
                   currentTime,
-                  style: TextStyle(fontWeight: FontWeight.w700),
+                  style: TextStyle(fontWeight: FontWeight.w600), // changed Font Weight
                 ),
                 Text(" | "),
                 Text(
