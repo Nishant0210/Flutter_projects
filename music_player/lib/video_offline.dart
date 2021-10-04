@@ -42,7 +42,7 @@ class VideoState extends State<PlayVideo> {
                 : Container())),
       ),
       floatingActionButton: FloatingActionButton(
-        hoverColor: Colors.amber,
+        hoverColor: Colors.blue, //colour changed
         onPressed: () {
           setState(() {
             playerController.value.isPlaying
