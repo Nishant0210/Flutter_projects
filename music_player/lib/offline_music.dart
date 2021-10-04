@@ -8,7 +8,7 @@ class Offline_Music extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'Offline Music',
+      title: 'Listen Offline Music',
       theme: ThemeData(
         primarySwatch: Colors.blue,
       ),
